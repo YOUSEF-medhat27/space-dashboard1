@@ -402,7 +402,7 @@ function renderPlanetDetails(p, planetId) {
   set("planet-detail-name", displayName);
   const img = document.getElementById("planet-detail-image");
   if (img) {
-    img.src = `./assets/images/${planetId}.png`;
+    img.src = `./img/${planetId}.png`;
     img.alt = `${displayName} planet`;
   }
 
